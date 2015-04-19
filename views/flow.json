@@ -1,0 +1,119 @@
+[
+{
+	"Repeat": 1,
+	"Child": [
+	{
+		"Symetric": true,
+		"Monster": "Basic:t=0",
+		"Delay": 1000
+	}]
+},
+{
+	"Repeat": 5,
+	"Child": [
+	{
+		"Symetric": true,
+		"Monster": "Basic:t=0",
+		"Delay": 4000
+	}]
+},
+{
+	"Repeat": 10,
+	"Child": [
+	{
+		"Symetric": true,
+		"Monster": "Basic:t=1",
+		"Delay": 4000
+	}]
+},
+{
+	"Repeat": 20,
+	"Child": [
+	{
+		"Symetric": true,
+		"Monster": "Basic:t=2",
+		"Delay": 0
+	},
+	{
+		"Symetric": false,
+		"Monster": "Basic:y=150:canFly=true",
+		"Delay": 6000
+	}]
+},
+{
+	"Repeat": 10,
+	"Child": [
+	{
+		"Symetric": true,
+		"Monster": "Basic:t=1",
+		"Delay": 0
+	},
+	{
+		"Symetric": true,
+		"Monster": "Basic:t=2",
+		"Delay": 4000
+	},
+	{
+		"Symetric": true,
+		"Monster": "Basic:t=2",
+		"Delay": 4000
+	}]
+},
+{
+	"Repeat": 20,
+	"Child": [
+	{
+		"Symetric": false,
+		"Monster": "Basic:t=2:y=100:canFly=true",
+		"Delay": 1000
+	},
+	{
+		"Symetric": false,
+		"Monster": "Basic:t=2:y=200:canFly=true",
+		"Delay": 1000
+	},
+	{
+		"Symetric": false,
+		"Monster": "Basic:t=1:y=300:canFly=true",
+		"Delay": 1000
+	},
+	{
+		"Symetric": false,
+		"Monster": "Basic:t=1:y=400:canFly=true",
+		"Delay": 1000
+	},
+	{
+		"Symetric": false,
+		"Monster": "Basic:t=1:y=500:canFly=true",
+		"Delay": 1000
+	},
+	{
+		"Symetric": false,
+		"Monster": "Basic:t=0:y=600:canFly=true",
+		"Delay": 1000
+	},
+	{
+		"Symetric": false,
+		"Monster": "Basic:t=0:y=700:canFly=true",
+		"Delay": 1000
+	}]
+},
+{
+	"Repeat": 10000,
+	"Child": [
+	{
+		"Symetric": true,
+		"Monster": "Basic:t=0",
+		"Delay": 0
+	},
+	{
+		"Symetric": true,
+		"Monster": "Basic:t=1",
+		"Delay": 2000
+	},
+	{
+		"Symetric": true,
+		"Monster": "Basic:t=2",
+		"Delay": 2000
+	}]
+}]

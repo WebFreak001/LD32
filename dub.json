@@ -1,0 +1,12 @@
+{
+	"name": "ld32",
+	"description": "Ludum Dare 32 entry written in D",
+	"copyright": "Copyright © 2015, WebFreak",
+	"authors": ["WebFreak"],
+	"targetPath": "bin",
+	"dependencies":
+	{
+		"d2dgame": "~>1.0.0",
+		"jsonizer": "~>0.3.3"
+	}
+}
